@@ -1,7 +1,8 @@
 
 import './App.css'
+import AppRoutes from './AppRoutes'
 import "./assets/main.css"
-import Home from './components/Home'
+import Home from './components/Home/Home'
 
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
   return (
     <>
     <div>
-    <Home/>
+    <AppRoutes/>
 
     </div>
     
