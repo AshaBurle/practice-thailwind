@@ -1,13 +1,19 @@
 
 import './App.css'
 import "./assets/main.css"
+import Home from './components/Home'
+
 
 function App() {
  
 
   return (
     <>
-     <h1>asha</h1>
+    <div>
+    <Home/>
+
+    </div>
+    
       
     </>
   )
